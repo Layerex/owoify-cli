@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "owoify-js": "^1.0.7"
+  },
+  "name": "owoify-cli",
+  "version": "1.0.0",
+  "description": "Owoify text from command line!",
+  "main": "index.js",
+  "bin": {
+    "owoify": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Layerex/owoify-cli.git"
+  },
+  "keywords": [
+    "owoify",
+    "cli",
+    "owo",
+    "uwu"
+  ],
+  "author": "Layerex",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Layerex/owoify-cli/issues"
+  },
+  "homepage": "https://github.com/Layerex/owoify-cli#readme"
+}
