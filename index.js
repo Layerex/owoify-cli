@@ -17,7 +17,17 @@ if (process.argv.length > 2) {
       process.exit(0);
     }
   }
+  if (process.argv.length != 3) {
+    console.log("Too many arguments.");
+    console.log(USAGE_STRING);
+    process.exit(2);
+  }
   level = process.argv[2];
+  if (["owo", "uwu", "uvu"].indexOf(level) == -1) {
+    console.log("Unknown level.");
+    console.log(USAGE_STRING);
+    process.exit(2);
+  }
 } else {
   level = "owo";
 }
