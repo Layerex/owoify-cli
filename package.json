@@ -3,7 +3,7 @@
     "owoify-js": "^1.0.7"
   },
   "name": "owoify-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Owoify text from command line!",
   "main": "index.js",
   "bin": {
