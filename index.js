@@ -3,7 +3,7 @@
 const owoify = require("owoify-js").default;
 const readline = require("readline");
 
-const USAGE_STRING = `Usage: owoify [level]
+const USAGE_STRING = `Usage: owoify [-h] [level]
 Levels are:
 - owo (default): pretty vanilla. Not much else to say about it.
 - uwu: moderately infuses the text but it gets wose and wose
