@@ -11,9 +11,11 @@ Levels are:
 
 let level;
 if (process.argv.length > 2) {
-  if (["-h", "--help"].indexOf(process.argv[2]) >= 0) {
-    console.log(USAGE_STRING);
-    process.exit(0);
+  for (let i = 2; i < process.argv.length; ++i) {
+    if (["-h", "--help"].indexOf(process.argv[i]) != -1) {
+      console.log(USAGE_STRING);
+      process.exit(0);
+    }
   }
   level = process.argv[2];
 } else {
