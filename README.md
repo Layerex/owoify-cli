@@ -11,7 +11,7 @@ npm install -g owoify-cli
 ## Usage
 
 ```
-Usage: owoify [level]
+Usage: owoify [-h] [level]
 Levels are:
 - owo (default): pretty vanilla. Not much else to say about it.
 - uwu: moderately infuses the text but it gets wose and wose
